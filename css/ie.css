@@ -1,0 +1,33 @@
+*+html{overflow:auto;}
+
+.button,
+.button-1,
+.button-2,
+.button-3,
+.dropcap{
+	behavior: url(js/PIE.htc);
+	position:relative;
+}
+
+.firsts, .lasts{
+	behavior: url(js/PIE.htc);
+	position:relative;
+}
+
+
+
+
+.layouts-nav li a, 
+#constuction-box,
+#intro-box{behavior:url(js/PIE.htc);}
+#text_slider div{background:none !important;}
+#advanced ul li.trigger_adv > span,
+dl#accordion dt,
+.cs-buttons a{
+	behavior:url(js/PIE.htc);
+	position:relative;
+}
+div.caption {background:#fff;}
+.kwicks li{filter:alpha(opacity=50);}
+.kwicks li.active{filter:alpha(opacity=100);}
+.hover span{filter:alpha(opacity=0);}

@@ -1,0 +1,149 @@
+.slider-container {position:relative; width:940px; margin:0 auto;}
+.slider-bg {
+	position:absolute;
+	border:1px solid #eaebec;
+	background:#fafafa;
+	width:938px;
+	height:417px;
+	top:8px;
+	left:0;
+	z-index:1;
+}
+#coin-slider{
+	overflow:hidden;
+	background:url(../images/loader.gif) 50% 50% no-repeat;
+	width:900px;
+	height:503px;
+	margin:0 auto;
+	position:relative;
+	z-index:2;
+}
+#coin-slider img{display:none;}
+#coin-slider img.first{display:block;}
+.coin-slider{
+	position:relative;
+	z-index:2;
+	margin:0px auto;
+	width:900px;
+	overflow:hidden;
+	height:503px;
+}
+
+
+.coin-slider a{
+	text-decoration:none;
+	display:inline-block;
+	outline:none;
+	border:none;
+}
+.controls {
+	height:362px;
+	width:940px;
+	position:absolute;
+	top:0px;
+	left:0px;
+	z-index:20;
+}
+.cs-buttons{
+	font-size:0px;
+	line-height:0;
+	position:absolute;
+	top:351px;
+	left:154px;
+	z-index:22;
+}
+
+.cs-buttons a{
+	margin-right:10px;
+	height:10px;
+	width:10px;
+	background:#fff;
+	display:inline-block;
+	border-radius:5px;
+}
+.cs-buttons a:hover, .cs-buttons a.cs-active{background:#434950;}
+.cs-prev, .cs-next{
+	display:none;
+}
+
+#coin-slider .banner {
+    height: 100%;
+    left: -788px;
+    overflow: hidden;
+    position: absolute;
+    top: 0px;
+    width: 635px;
+    z-index: 19;
+}
+.text-1 {
+	display:block;
+	color: #fff;
+	font-size:45px;
+	line-height:1.2em;	
+}
+.text-2 {
+	display:block;
+	color: #fbfbfb;
+	font-size:126px;
+	line-height:1.2em;
+	letter-spacing:-10px;
+	margin-top:-51px;
+	padding:0 0 0 0px;
+}
+.pad-1 {padding:0 0 0 198px;}
+.pad-2 {padding:0 0 0 98px;}
+.pad-4 {padding:0 0 0 9px;}
+.pad-5 {padding:0 0 0 19px;}
+.pad-6 {padding:0 0 0 135px;}
+.pad-7 {padding:0 0 0 20px;}
+
+.text-3 {
+	display:block;
+	color: #fff;
+	font-size:26px;
+	line-height:1.2em;
+	font-family: 'Maven Pro', sans-serif;
+	font-weight:400;
+	margin-top:-16px;
+	letter-spacing:-2px;
+	text-transform:uppercase;
+}
+.text-4 {
+	display:block;
+	color: #fbfbfb;
+	font-size:125px;
+	line-height:1.2em;
+	letter-spacing:-6px;
+	margin-top:-37px;
+	padding:0 0 0 0px;
+}
+*+html .text-4 {margin:-30px 0 -30px 0;}
+#coin-slider .banner:first-child {
+    z-index: 20;
+}
+#coin-slider .banner strong {
+    display: block;
+    overflow: hidden;
+    position: absolute;
+    
+}
+#coin-slider .banner strong:first-child + strong {
+	z-index: 21;
+}
+
+.button-2{
+	color:#343a41;
+	letter-spacing:-1px;
+	font-size:17px;
+	text-transform:capitalize;
+	line-height:21px;
+	background:url(../images/bg-button.gif) 0 0 repeat-x #f5f5f5;
+	display:inline-block;
+	border-radius:25px;
+	padding:11px 22px 11px 22px;
+	box-shadow:1px 1px 0 #75848c;
+	margin:0 1px 2px 0px;
+}
+.button-2:hover {background:#343a41; color:#fff;}
+
+

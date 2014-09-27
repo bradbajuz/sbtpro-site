@@ -1,0 +1,103 @@
+input[type=text],
+input[type=password],
+textarea{
+	color:#777777;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	vertical-align:middle;
+	font-weight:normal;
+	padding:8px 8px 10px 8px;
+	margin:0;
+	background:#fff;
+	border:1px solid #e4e4e4;
+	outline:none;
+	width:202px;
+}
+
+/* Search */
+#search {
+	height:36px;
+	background:#fff;
+	border:1px solid #d0d0d0;
+	overflow:hidden;
+}
+#search input {
+	width:240px; 
+	line-height:1.23em;
+	padding:10px 8px 10px 8px;
+	background:none;
+	border:none;
+}
+#search span {float:left;}
+
+#search a {
+	display:inline-block; 
+	width:42px;
+	height:36px;
+	background:url(../images/search-a.png) 0 0px no-repeat #fff;
+}
+
+/* Contact form */
+.success {
+	width:438px;
+	text-align:center;
+	color:#343a41;
+	font-size:19px;
+	line-height:1.2em;
+	padding:10px 10px 10px 10px;
+	margin-bottom:10px;
+	display:none;
+	background:#fff;
+	border:1px solid #e4e4e4;
+}
+#contact-form {
+	vertical-align:top;
+	padding-top:2px;
+}
+	#contact-form fieldset {
+		border:none;
+		}
+		#contact-form .field {
+			overflow:hidden;
+			padding:0 0 19px 0px;
+			}
+			#contact-form input { 
+				float:left; 
+				line-height:1.23em; 
+				margin:0px 0 0 0;
+			}
+			#contact-form .area .error { float:left;}
+			#contact-form textarea {
+				overflow:auto;
+				margin:1px 0 0 0;
+				width:442px;
+				height:175px; 
+				float:left;
+				line-height:1.23em;
+				resize:vertical;
+			}
+			#contact-form label {
+				padding:0 0 0px 0px;
+				display:inline-block;
+				color:#F00;
+				}
+				#contact-form .error, #contact-form .empty {
+					color:red;
+					width:261px;
+					font-size:11px;
+					line-height:15px;
+					padding:3px 0 0 0px;
+					display:none;
+					float:left;
+				}
+		.buttons-wrapper {text-align:right; clear:both; padding:30px 0px 0 0px;}
+		.buttons-wrapper a {text-align:center;}
+		.buttons-wrapper .left-indent { margin-left:17px;}
+	
+
+/* Newsletter-alt-form */
+#newsletter-alt-form fieldset{border:none}
+#newsletter-alt-form input[type=text]{
+	margin-right:12px; 
+}
+#newsletter-alt-form a{vertical-align:middle;}
