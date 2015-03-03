@@ -137,6 +137,20 @@ a:hover {
 	background-color:#FFFFFF;
 	border-top:1px solid #E1E1E1;
 }
+.bg-content-2 {
+	width:100%;
+	background-repeat-x:repeat;
+	background-repeat-y:repeat;
+	background-repeat:repeat;
+	background-attachment:initial;
+	background-position:50% 0px;
+	background-position-x:50%;
+	background-position-y:0;
+	background-origin:initial;
+	background-clip:initial;
+	background-color:#FFFFFF;
+	border-top:1px solid #E1E1E1;
+}
 
 .l-h {
 	line-height:18px;
@@ -277,6 +291,10 @@ p {
 
 .padding-4 {
 	padding:37px 0px 50px 0px;
+}
+
+.padding-8 {
+	padding:0px 100px 0px 120px;
 }
 
 .padding-top {
